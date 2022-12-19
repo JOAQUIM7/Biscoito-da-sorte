@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.hide{
+    display: none;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    background: linear-gradient(45deg, #190361, #bb00ff);
+	animation: gradient 10s ease infinite;
+    background-size: 200% 800%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+main {
+    justify-self: center;
+    align-self: center;
+    width: 42.8rem;
+    padding: 4.8rem 6.4rem 4.8rem;
+    background: #ffffff;
+}
+
+div {
+    text-align: center;
+    width: 300px;
+    align-items: center;
+}
+
+h1 {    
+    font-size: 24px;
+    color: #34355B;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #34355B;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    background: #E4EDF1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    margin: 17px auto 60px;
+    padding: 10px;
+}
+
+.screen2 img {
+    margin-bottom: 60px;
+}
+
+.screen2 button {
+    background-color: #FF9500;
+    padding: 16px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+}
